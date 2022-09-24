@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: todo-go
-        image: nginx:1.14.2 # TODO: change this later
+        image: hikari3467/todo-go-app:latest
         ports:
         - containerPort: 8080
         env:

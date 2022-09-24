@@ -4,6 +4,6 @@ metadata:
   name: todo-go-config
 data:
   # db-driver: mysql
-  db-host: host.minikube.internal
-  db-port: 3306
+  db-host: "host.minikube.internal"
+  db-port: "3306"
   # server-address: todo-go-service
