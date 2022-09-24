@@ -35,6 +35,16 @@ spec:
             configMapKeyRef:
               name: todo-go-config
               key: db-port
+        - name: SERVER_ADDRESS
+          valueFrom:
+            configMapKeyRef:
+              name: todo-go-config
+              key: server-address
+        - name: SERVER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: todo-go-config
+              key: server-port
 ---
 apiVersion: v1
 kind: Service

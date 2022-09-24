@@ -6,4 +6,5 @@ data:
   # db-driver: mysql
   db-host: "host.minikube.internal"
   db-port: "3306"
-  # server-address: todo-go-service
+  server-address: "0.0.0.0"
+  server-port: "8080"
