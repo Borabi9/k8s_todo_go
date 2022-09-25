@@ -3,8 +3,7 @@ kind: ConfigMap
 metadata:
   name: todo-go-config
 data:
-  # db-driver: mysql
-  db-host: "host.minikube.internal"
+  db-host: "host.docker.internal"
   db-port: "3306"
   server-address: "0.0.0.0"
   server-port: "8080"
