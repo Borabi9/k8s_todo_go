@@ -3,7 +3,7 @@ The simple k8s manifesto for Go Todo App
 
 ## prerequisite for Local Env
 [Docker Desktop](https://docs.docker.com/desktop/install/mac-install/)
-    * You can also install from [here](https://formulae.brew.sh/formula/docker#default)
+* You can also install from [here](https://formulae.brew.sh/formula/docker#default)
 
 ## How to setup
 Before you started check the document below and enable Docker Desktop's Kubernetes
